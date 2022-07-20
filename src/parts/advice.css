@@ -1,0 +1,27 @@
+.advice-box{
+    background-color: #fefefe;
+    display: flex;
+    width: 60vw;
+    margin:30vh auto;
+    padding:2em;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 6px #fefe;
+}
+.advice-box>p{
+    font-size: larger;
+    font-weight:bolder;
+}
+.advice-box>button{
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #6fabd0;
+    color: #fefe;
+    font-weight: bold;
+    cursor: pointer;
+}
