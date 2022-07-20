@@ -1,7 +1,10 @@
 import React from 'react'
+import Advice from './parts/advice'
 
 export default function App() {
   return (
-    <div>app</div>
+    <div>
+        <Advice/>
+    </div>
   )
 }
